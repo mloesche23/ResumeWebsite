@@ -12,7 +12,7 @@
     font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #f9bfff;
+    background-color: #3f0048;
     text-align: center;
 }
 
@@ -20,6 +20,25 @@ header {
     font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: bold;
     height: 85px;
+}
+
+.profile {
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.name-header {
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.profile-text{
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.0em;
+    padding-top: 10px;
 }
 
 body {
@@ -32,22 +51,33 @@ body {
     align-items: center;
 }
 
-h1 {
-    font-size: 29px;
+.name-plate {
+    font-size: 30px;
     line-height: 39px;
     font-weight: 800;
 }
 
-h2 {
+.subtitle {
     font-size: 19px;
     line-height: 39px;
     font-weight: 800;
+    padding-bottom: 1px;
 }
 
-h3 {
+.experience {
     font-size: 19px;
     line-height: 39px;
     font-weight: 300;
+    width: 65vh;
+    text-align: left;
+}
+
+.divider {
+    width: 80%;
+    height: 3px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
