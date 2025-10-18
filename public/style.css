@@ -170,13 +170,14 @@ img {
 }
 
 button {
-    font-family:Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     background-color: rgb(131, 160, 168);
     cursor: pointer;
     width: 20vh;
     height: 5vh;
     margin: 10px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 button:hover {
