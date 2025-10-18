@@ -9,14 +9,19 @@
     color: rgba(255, 255, 255, 0.87);
     background-color: #ffffff;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-header {
+.headline {
     font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: bold;
     height: 85px;
     padding-top: 5px;
     padding-bottom: 5px;
+    position: sticky;
+    top: 0;
 }
 
 .profile {
@@ -44,6 +49,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .name-plate {
@@ -51,6 +58,7 @@ body {
     line-height: 39px;
     font-weight: 800;
     color: black;
+    text-align: center;
 }
 
 .subtitle {
@@ -58,6 +66,25 @@ body {
     line-height: 39px;
     font-weight: 800;
     padding-bottom: 1px;
+    color: black;
+    text-align: center;
+}
+
+.projectSubtitle {
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 39px;
+    font-weight: 800;
+    color: black;
+    text-align: left;
+}
+
+.projectDescription {
+    font-weight: 300;
+    font-size: 1.0em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
     color: black;
 }
 
@@ -70,8 +97,21 @@ body {
     color: black;
 }
 
+.projects {
+    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 39px;
+    font-weight: 300;
+    width: 80vh;
+    text-align: left;
+    color: black;
+    background-color: rgb(131, 160, 168);
+    border-radius: 50px;
+    padding: 25px;
+}
+
 .divider {
-    width: 100%;
+    width: 60%;
     height: 3px;
     background-color: black;
     margin-left: auto;
@@ -79,9 +119,11 @@ body {
 }
 
 .divider-l {
-    width: 80vh;
+    width: 100%;
     height: 3px;
     background-color: black;
+    margin-left: 0;
+    margin-right: 0;
 }
 .work-experience-full {
     font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -89,7 +131,7 @@ body {
     padding: 25px;
     background-color: rgb(131, 160, 168);
     border-radius: 50px;
-    margin-bottom: 50vh;
+    margin-bottom: 20vh;
 }
 
 .education {
@@ -98,6 +140,7 @@ body {
     padding: 25px;
     background-color: rgb(131, 160, 168);
     border-radius: 50px;
+    margin-bottom: 20vh;
 }
 
 ul {
@@ -124,12 +167,6 @@ img {
 
 #app {
     max-width: 1280px;
-}
-
-.logo {
-    margin-top: 45px;
-    margin-left: 20%;
-    align-self: flex-start;
 }
 
 button {
