@@ -20,10 +20,10 @@ document.getElementById("education-button").addEventListener("click", () => {
   scrollToSection(".education");
 });
 
-document.getElementById("skills-button").addEventListener("click", () => {
-  scrollToSection(".skills");
+document.getElementById("projects-button").addEventListener("click", () => {
+  scrollToSection(".projects");
 });
 
-document.getElementById("contact-button").addEventListener("click", () => {
-  scrollToSection(".contact");
+document.getElementById("skills-button").addEventListener("click", () => {
+  scrollToSection(".skills");
 });
