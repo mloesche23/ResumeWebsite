@@ -134,7 +134,7 @@ body {
     padding: 25px;
     background-color: rgb(131, 160, 168);
     border-radius: 50px;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
 }
 
 .education {
@@ -189,4 +189,29 @@ button:hover {
     content: '\00bb';
     opacity: 80%;
     transition: 0.5s;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.logo-row img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.2s ease;
+}
+
+.logo-row img:hover {
+    transform: scale(1.15);
 }
