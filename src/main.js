@@ -25,5 +25,5 @@ document.getElementById("projects-button").addEventListener("click", () => {
 });
 
 document.getElementById("skills-button").addEventListener("click", () => {
-  scrollToSection(".skills");
+  scrollToSection(".footer");
 });
