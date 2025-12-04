@@ -7,7 +7,7 @@
     font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom right, #ffffff, #58608e);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -44,6 +44,7 @@
     font-weight: 300;
     font-size: 1.0em;
     padding-top: 10px;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 body {
@@ -192,7 +193,6 @@ button:hover {
 }
 
 .footer {
-    background-color: #ffffff;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -207,8 +207,8 @@ button:hover {
 }
 
 .logo-row img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     transition: transform 0.2s ease;
 }
 
